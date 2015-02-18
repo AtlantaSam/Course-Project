@@ -11,14 +11,14 @@ The data was sourced from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 A script was created that was called run_analysis.R, and performed the following tasks:
-1	Merged the training and the test sets to create one data set.
-2	Extracted only the measurements on the mean and standard deviation for each measurement. 
-3	Used descriptive activity names to name the activities in the data set
-4	Appropriately labeled the data set with descriptive variable names. 
-5	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Merged the training and the test sets to create one data set.
+* Extracted only the measurements on the mean and standard deviation for each measurement. 
+* Used descriptive activity names to name the activities in the data set
+* Appropriately labeled the data set with descriptive variable names. 
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-Summary of what run_analysis.R actually did:
+### Summary of what run_analysis.R actually did:
 
 •	Data was merged using the rbind() function.
 •	The columns with the mean and standard deviation measures were taken from the merged dataset. After columns were extracted, they are given the correct names, taken from features.txt.
