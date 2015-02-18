@@ -20,16 +20,16 @@ files
 # read some tables
 xtrain    <- read.table("./UCI HAR Dataset/train/X_train.txt")
 ytrain    <- read.table("./UCI HAR Dataset/train/y_train.txt")
-#subjtrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+subjtrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
 xtest     <- read.table("./UCI HAR Dataset/test/X_test.txt")
 ytest     <- read.table("./UCI HAR Dataset/test/y_test.txt")
-#subjtest  <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+subjtest  <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
 # the merge
 xdata    <- rbind(xtrain, xtest)
 ydata    <- rbind(ytrain, ytest)
-#subjdata <- rbind(subjtrain, subjtest)
+subjdata <- rbind(subjtrain, subjtest)
 
 
 # course project part 2
