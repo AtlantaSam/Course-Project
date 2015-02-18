@@ -1,5 +1,5 @@
 
-The Codebook
+The Codebook for Course Project Dataset AveragesData.txt
 
 This document includes a description of the variables, the data and transformations performed in the process of downloading, merging, cleaning data that is ultimately processed as a tidy dataset called AveragesData.txt.
 
